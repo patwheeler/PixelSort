@@ -14,7 +14,7 @@ The program displays the sorted, greyscale, and original images before exiting.
 </div>
 
 #### Usage
-You have the option to change sort pixels by column or row, tweak the threshold values(0-255), and save the pic.
+Options to sort pixels by column or row, tweak the threshold values(0-255), and save the pic.
 ```
 -i (input image: default moss picture included in input/)
 -o (output image: default no save)
