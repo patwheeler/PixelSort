@@ -7,10 +7,13 @@ Really dig how simple the idea is + cool the results are:
 
 The program displays the sorted, greyscale, and original images before exiting.  
 
-## Examples
+## Example
+```
+./pixelsort -i input/moss.jpg -o output/moss_v.jpg -l 30 -u 210 -v true
+```  
 <div align="center">
-  <img height="400px" src="https://github.com/patwheeler/PixelSort/blob/main/output/building_h.jpg?raw=true">
-  <img height="400px" src="https://github.com/patwheeler/PixelSort/blob/main/output/moss_v.jpg?raw=true">
+  <img width="400px" src="https://github.com/patwheeler/PixelSort/blob/main/input/moss.jpg?raw=true">
+  <img width="400px" src="https://github.com/patwheeler/PixelSort/blob/main/output/moss_v.jpg?raw=true">
 </div>
 
 #### Usage
@@ -22,11 +25,6 @@ Options to sort pixels by column or row, tweak the threshold values(0-255), and 
 -u (upper threshold: default 210)
 -v (vertical: default true)
 ```
-The commands for creating the left and right pictures respectively were:  
-```
-./pixelsort -i input/building.jpg -o output/building_h.jpg -l 60 -u 200 -v false
-./pixelsort -i input/moss.jpg -o output/moss_v.jpg -l 30 -u 210 -v true
-```   
 
 ## Building on Linux
 Compile using g++ and included makefile. i.e.```make```  
